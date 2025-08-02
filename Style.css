@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.img1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+}
+.img2{
+    background-image: url(images/image2.png);
+    min-height: 700px;
+}
+.img3{
+    background-image: url(images/ocean2.jpg);
+    min-height: 700px;
+}
+.img4{
+    background-image: url(images/image1.png);
+    min-height: 700px;
+}
+.img1,.img2,.img3,.img4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.text{
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+.heading{
+    position: absolute;
+    height: 70px;
+    width: 35%;
+    background-color: #313534;
+    top: 340px;
+    left: 480px;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info{
+    background-color: white;
+    text-align: center;
+    padding: 80px;
+}
